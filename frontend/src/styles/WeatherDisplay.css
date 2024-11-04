@@ -1,0 +1,38 @@
+/* WeatherDisplay.css */
+.weather-display {
+    background-color: #f0f8ff; /* Light blue background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* Needed for absolute positioning of sun-times */
+    max-width: 400px; /* Limit the width for better alignment */
+    margin: 5px auto; /* Center the component */
+}
+
+.sun-times {
+    position: relative; /* Position the sunrise/sunset section absolutely */
+    top: -200px; /* Space from the top */
+    left: -440px; /* Space from the left */
+    /* background-color: rgba(255, 255, 255, 0.8);  */
+    padding: 10px; /* Padding for the sun-times */
+    border-radius: 8px; 
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);  */
+    margin: 0;
+}
+.heading{
+    margin-top: -70px;
+}
+.weather-info {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 5px; /* Space for the absolute positioned sunrise/sunset */
+}
+
+.weather-info p {
+    display: flex;
+    align-items: center;
+}
+
+.weather-info strong {
+    margin-right: 10px;
+}

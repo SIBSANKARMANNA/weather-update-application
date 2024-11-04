@@ -80,7 +80,6 @@ Data Fetching: The frontend sends a request to the backend, which then uses the 
 Display Results: The weather information is displayed on the frontend.
 Usage
 After both the frontend and backend servers are running:
-
 Open your browser and navigate to http://localhost:3000.
 Enter a city name and date to get the weather update.
 The application will display temperature, humidity, and other weather conditions.

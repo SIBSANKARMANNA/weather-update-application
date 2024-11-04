@@ -4,6 +4,8 @@ This is a full-stack web application built with React.js on the frontend and Nod
 Project Overview
 This application allows users to input a city name and a date to receive weather updates, such as temperature, humidity, and weather conditions. The backend fetches data from OpenWeatherMap's API, processes it, and serves it to the frontend for a smooth user experience.
 
+visit this website:https://sibsankarmanna.github.io/weather-update-application/
+
 Features
 Search by City and Date: Users can specify a city and date to get weather information.
 Current Weather Conditions: Provides details such as temperature, humidity, and weather status.

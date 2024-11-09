@@ -1,39 +1,42 @@
-# AI Integration Web Application 🤖
-This is a full-stack web application that integrates AI features, including sentiment analysis and content recommendation. The app has both a user-facing interface and an admin dashboard. It is built with React.js on the frontend and Node.js with Express.js on the backend, with MongoDB for database management. User security is handled with JWT (JSON Web Tokens) and bcryptjs for password hashing.
+# Weather Update Application
 
-## Project Overview
-This web application provides a platform where users can:
-- Perform sentiment analysis on text input.
-- Get personalized content recommendations based on user preferences.
-- View and manage their profile, including their profile picture and email.
-- Admin users can manage other users, including deleting users and creating new admin users.
+This Weather Update Application provides weather information based on user input, such as the city name and the desired date. The app fetches real-time data from the OpenWeatherMap API and presents details like sunrise, sunset, wind speed, humidity, and more.
 
-The application uses role-based access control, where only admin users can access the admin dashboard, while normal users can only interact with their profiles, sentiment analysis, and content recommendations.
-
-Visit the live version here: [AI Integration Web Application](https://your-deployed-app-url)
+The frontend is built using **React.js**, while the backend is developed using **Node.js** and **Express.js** to handle API requests.
 
 ## Features
-- **Sentiment Analysis**: Users can input text to analyze its sentiment (positive, negative, or neutral).
-- **Content Recommendation**: Personalized content recommendations based on the user's preferences.
-- **User Profile**: Users can view and update their profile, including their name, email, and profile picture.
-- **Admin Dashboard**: Admin users can manage users, including viewing user profiles, deleting users, and creating new admins.
-- **Create Admin Section**: Admins can create new admin users in addition to normal users.
-- **Role-Based Access**: Admins can access the Admin Dashboard and manage users, while regular users can only access their profile, sentiment analysis, and content recommendations.
-- **User Authentication**: Registration, login, and password reset functionality.
-  
+
+- Users can input a city name and a specific date to get weather details.
+- Displays key weather information such as:
+  - Sunrise time
+  - Sunset time
+  - Wind speed
+  - Humidity
+  - And more weather-related data
+- Real-time weather updates from OpenWeatherMap API
+- Fully functional frontend with React.js
+- Backend API developed with Node.js and Express.js
+- Responsive UI for various device sizes
+
+## Demo
+
+You can check the live demo of the application https://sibsankarmanna.github.io/weather-update-application/
+
 ## Tech Stack
+
 - **Frontend**: React.js
 - **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **User Authentication & Security**: JSON Web Tokens (JWT) for authentication, bcryptjs for password hashing
-- **AI Features**: Sentiment analysis and content recommendation algorithms
+- **API**: OpenWeatherMap API (for weather data)
+- **Styling**: CSS or any styling library you have used
+- **Version Control**: Git
 
-## Installation & Setup
+## Installation
 
-### Clone the Repository:
+### Clone the Repository
 
-To clone the project, use the following command:
-git clone https://github.com/SIBSANKARMANNA/AI-application.git
+To get started, clone the repository:
+git clone https://github.com/SIBSANKARMANNA/weather-update-application.git
+
 
 ## License
-This project is open source and available under the MIT License. See the LICENSE file for more details.
+This project is licensed under the MIT License - see the LICENSE file for details.

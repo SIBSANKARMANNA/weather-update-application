@@ -20,7 +20,7 @@ The frontend is built using **React.js**, while the backend is developed using *
 
 ## Demo
 
-You can check the live demo of the application https://sibsankarmanna.github.io/weather-update-application/
+You can check the live demo of the application https://weather-update-application.netlify.app/
 
 ## Tech Stack
 
